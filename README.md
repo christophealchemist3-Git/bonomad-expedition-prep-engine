@@ -63,6 +63,7 @@ The platform is a prototype. Features and capabilities should be understood in t
 
 <p align="center">
 <img width="800" alt="BoNomad - Structured Inputs" src="https://github.com/user-attachments/assets/0657b63d-f943-46cf-9567-19b78b0f662b" />
+</p>  
 <p align="center"><em>Multi-steps Planner — structured inputs before AI generation</em></p>
 
 <p align="center">
@@ -157,7 +158,7 @@ Route geometry today follows waypoint sequences on the map (routing-engine integ
 
 ## Contact
 
-[Christophe Marechal] · [www.linkedin.com/in/christophe-marechal-5296615]
+[Christophe Marechal] · [https://www.linkedin.com/in/christophe-marechal-5296615]
 
 ## Intellectual Property
 
