@@ -45,16 +45,23 @@ The platform is a prototype. Features and capabilities should be understood in t
 
 ## Screenshots
 
+<p align="center">
+<img width="800" alt="BoNomad - Landing page hero with Call To Action" src="https://github.com/user-attachments/assets/36f25d2f-1c7b-421c-8e97-25f325225883" />
+</p>
+<p align="center"><em>Landing page hero with Call To Action</em></p>
+
+
 
 <p align="center">
-  <img width="800" alt="BoNomad — Landing page hero and value proposition for off-road expedition planning" src="https://github.com/user-attachments/assets/1f2051ce-95d5-46a1-ae6a-036425a67f6e" />
+<img width="800" alt="BoNomad - Value Proposition" src="https://github.com/user-attachments/assets/706fa066-cc74-4e57-8d61-7e584698f109" />
 </p>
-<p align="center"><em>Landing page hero and value proposition for off-road expedition planning</em></p>
+<p align="center"><em>Landing Page : Value Proposition for Off-Road Expedition Planning</em></p>
+
 
 
 <p align="center">
 <img width="800" alt="BoNomad - Structured Inputs" src="https://github.com/user-attachments/assets/0657b63d-f943-46cf-9567-19b78b0f662b" />
-<p align="center"><em>Planner — structured inputs before AI generation</em></p>
+<p align="center"><em>Multi-steps Planner — structured inputs before AI generation</em></p>
 
 <p align="center">
   <img width="800" alt="BoNomad — Generated roadbook with day-by-day itinerary, map, and checklist" src="https://github.com/user-attachments/assets/1dd3c111-0d2f-496a-a65e-97c070f950fd" />
@@ -62,16 +69,31 @@ The platform is a prototype. Features and capabilities should be understood in t
 <p align="center"><em>Trip result — roadbook tabs (itinerary, map, preparation)</em></p>
 
 <p align="center">
-  <img width="800" alt="BoNomad — Dashboard, map module, or credits and account context" src="https://github.com/user-attachments/assets/6bbc9b36-2f8b-4f88-90d5-c13bed841b0d" />
+<img width="800" alt="Bonomad - Affiliate Products" src="https://github.com/user-attachments/assets/152f7aa8-a737-4b4d-8617-ba9f8d306158" />
 </p>
-<p align="center"><em>Trip Result - Detailed Itinerary</em></p>
-
+<p align="center"><em>Recommended Product for Generated Itinerary based on Vehicle Inputs - here Maxtrax</em></p>
 
 
 <p align="center">
 <img width="800" alt="BoNomad - Dashboard With Saved Itineraries" src="https://github.com/user-attachments/assets/efda8c3f-67e2-4069-9fc1-23cb50e2a399" />
 </p>
 <p align="center"><em>Dashboard — Saved Expeditions</em></p>
+
+<p align="center">
+<img width="800" alt="BoNomad - Interactive MAP with POI Filters" src="https://github.com/user-attachments/assets/a387056a-94cb-4df5-aa7a-788ebfd334c5" />
+</p>
+<p align="center"><em>Map — curated POI-style data and filters</em></p>
+
+<p align="center">
+<img width="800" alt="BoNomad - Univers Off-Road product interest page" src="https://github.com/user-attachments/assets/1b3d2544-1308-4a26-8593-fd14902f6f3c" />
+</p>
+<p align="center"><em>Univers Off-Road product interest</em></p>
+
+<p align="center">
+<img width="800" alt="BoNomad - Credit Balance and Pre-launch waitlist" src="https://github.com/user-attachments/assets/aae56160-6ae0-4ee0-9700-6acac2f69b6c" />
+</p>
+<p align="center"><em>Credit Acquisition Page (available soon)</em></p>
+
 
 
 
