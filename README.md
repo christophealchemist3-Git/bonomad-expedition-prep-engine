@@ -49,7 +49,7 @@ The platform is a prototype. Features and capabilities should be understood in t
 <p align="center">
   <img width="800" alt="BoNomad — Landing page hero and value proposition for off-road expedition planning" src="https://github.com/user-attachments/assets/1f2051ce-95d5-46a1-ae6a-036425a67f6e" />
 </p>
-<p align="center"><em>Landing — expedition prep positioning and entry to the planner</em></p>
+<p align="center"><em>Landing page hero and value proposition for off-road expedition planning</em></p>
 
 
 <p align="center">
