@@ -6,6 +6,8 @@ BoNomad is a functional prototype designed to explore how AI can simplify the pr
 
 The project takes a product-oriented approach to AI, turning complex travel requirements into a structured and personalized planning experience.
 
+It combines a structured 7-step expedition planner, a hybrid AI pipeline (exact cache → similarity cluster → Claude generation), rule-based gear recommendations, and EU-oriented AI transparency — on a modern React 19 / Next.js 16 stack.
+
 ## The Challenge
 
 Preparing an off-road expedition involves more than selecting a destination. Travellers must consider vehicle capabilities, terrain, autonomy, route constraints, logistics and preparation requirements.
@@ -14,13 +16,25 @@ BoNomad brings these elements together in a more coherent and user-friendly expe
 
 ## Key Capabilities
 
-- Personalized expedition planning based on user requirements and vehicle characteristics
-- Itinerary generation for off-road and overland travel
+- Seven-step expedition planner : structured capture of destination, duration, vehicle, equipment, travel style, terrain, autonomy (fuel/water), and risk/comfort/isolation preferences; draft progress is preserved locally so users can complete the flow over multiple sessions
+- Personalized expedition planning that turns these inputs into a coherent off-road / overland brief (not a generic travel chat)
+- Itinerary generation for off-road and overland travel and interactive roadbook — tabbed trip view: day-by-day itinerary, satellite map trace with waypoints, and vehicle-aware preparation checklist; users can save trips to a personal dashboard and re-open them later
+- **Accounts & dashboard** — Supabase authentication, personal itinerary library, checklist progress persistence on owned trips, and GPX export from saved or freshly generated roadbooks
 - Contextual recommendations to support trip preparation
 - Expedition readiness through structured preparation and checklists
+- Responsible AI transparency (EU AI Act–oriented) : granular labels on generated content (editorial sections, map trace, non-AI recommendations) so users know what was produced by the model versus deterministic logic
 - GPX export for use in navigation devices and apps
-- Equipment recommendations with affiliate links
+- Contextual equipment suggestions (rule-based, not LLM): affiliation triggers derived from planner answers and itinerary context, keeping recommendations consistent and avoiding extra AI token cost on every view
 - Credits system and waitlist
+
+
+## Platform Surfaces (Prototype)
+
+Beyond core generation, the prototype includes supporting journeys that reflect a full product vision:
+
+- Interactive map : browse curated POI-style address data with filters (companion to trip planning, not only a static hero)
+- Univers Off-Road (`/guides`) : product-interest capture (e.g. printed map, journal) and email sign-up to validate demand before paid features ship
+- Credits & waitlist : credit balance, pre-payment waitlist for future packs, and generation gated on authenticated users with available credits
 
 ## Product Demonstration
 
@@ -31,13 +45,34 @@ The platform is a prototype. Features and capabilities should be understood in t
 
 ## Screenshots
 
-<img width="800" alt="BoNomad Home Page" src="https://github.com/user-attachments/assets/1f2051ce-95d5-46a1-ae6a-036425a67f6e" />
 
-<img width="800" alt="BoNomad Home Page 2" src="https://github.com/user-attachments/assets/257c3a47-25e5-42d5-bde0-2993c12baaf5" />
+<p align="center">
+  <img width="800" alt="BoNomad — Landing page hero and value proposition for off-road expedition planning" src="https://github.com/user-attachments/assets/1f2051ce-95d5-46a1-ae6a-036425a67f6e" />
+</p>
+<p align="center"><em>Landing — expedition prep positioning and entry to the planner</em></p>
 
-<img width="800" alt="BoNomad Home Page 3" src="https://github.com/user-attachments/assets/1dd3c111-0d2f-496a-a65e-97c070f950fd" />
 
-<img width="2502" height="800" alt="BoNomad Home Page4" src="https://github.com/user-attachments/assets/6bbc9b36-2f8b-4f88-90d5-c13bed841b0d" />
+<p align="center">
+<img width="800" alt="BoNomad - Structured Inputs" src="https://github.com/user-attachments/assets/0657b63d-f943-46cf-9567-19b78b0f662b" />
+<p align="center"><em>Planner — structured inputs before AI generation</em></p>
+
+<p align="center">
+  <img width="800" alt="BoNomad — Generated roadbook with day-by-day itinerary, map, and checklist" src="https://github.com/user-attachments/assets/1dd3c111-0d2f-496a-a65e-97c070f950fd" />
+</p>
+<p align="center"><em>Trip result — roadbook tabs (itinerary, map, preparation)</em></p>
+
+<p align="center">
+  <img width="800" alt="BoNomad — Dashboard, map module, or credits and account context" src="https://github.com/user-attachments/assets/6bbc9b36-2f8b-4f88-90d5-c13bed841b0d" />
+</p>
+<p align="center"><em>Trip Result - Detailed Itinerary</em></p>
+
+
+
+<p align="center">
+<img width="800" alt="BoNomad - Dashboard With Saved Itineraries" src="https://github.com/user-attachments/assets/efda8c3f-67e2-4069-9fc1-23cb50e2a399" />
+</p>
+<p align="center"><em>Dashboard — Saved Expeditions</em></p>
+
 
 
 ## Technology Stack
@@ -52,9 +87,15 @@ The platform is a prototype. Features and capabilities should be understood in t
 | **Quality & Tooling** | ESLint 9, Node.js 20+ |
 | **Deployment** | Vercel, GitHub |
 
+
+The stack is deliberately current-generation: **React 19** and **Next.js 16 App Router** for the UI and server boundaries, **Tailwind CSS v4** with CSS-first design tokens (`@theme`), **Supabase** with Row Level Security for auth and data, and **server-only** calls to **Anthropic Claude** so API keys never ship to the browser. Mapping combines **Mapbox GL** (trip satellite view) and **Leaflet** where a lighter map experience fits.
+
+
 ## Product & Technology Approach
 
 The project combines product design, functional requirements, AI use cases and iterative prototyping. Technical choices are guided by the objective of building a usable, evolvable and user-oriented experience, while keeping AI costs and response times under control.
+
+Regulatory-aware UX (AI transparency by section) is treated as a first-class product requirement, not a post-launch overlay.
 
 ## Challenges & Learnings
 
@@ -87,6 +128,8 @@ This approach reduces API costs and latency, and the platform becomes more effic
 ## Current Status
 
 BoNomad is an ongoing prototype used to explore the practical application of AI to expedition planning. Future improvements may include enhanced route intelligence, richer contextual data and more advanced personalization.
+
+Route geometry today follows waypoint sequences on the map (routing-engine integration is explored but not part of this prototype snapshot).  
 
 ## Contact
 
