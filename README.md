@@ -28,10 +28,17 @@ BoNomad brings these elements together in a more coherent and user-friendly expe
 
 The platform is a prototype. Features and capabilities should be understood in the context of its current development stage.
 
-<img width="2686" height="1224" alt="BoNomad Home Page1" src="https://github.com/user-attachments/assets/1f2051ce-95d5-46a1-ae6a-036425a67f6e" />
-<img width="2506" height="702" alt="BoNomad Home Page2" src="https://github.com/user-attachments/assets/257c3a47-25e5-42d5-bde0-2993c12baaf5" />
-<img width="2512" height="1618" alt="BoNomad Home Page3" src="https://github.com/user-attachments/assets/1dd3c111-0d2f-496a-a65e-97c070f950fd" />
-<img width="2502" height="1456" alt="BoNomad Home Page4" src="https://github.com/user-attachments/assets/6bbc9b36-2f8b-4f88-90d5-c13bed841b0d" />
+
+## Screenshots
+
+<img width="800" alt="BoNomad Home Page" src="https://github.com/user-attachments/assets/1f2051ce-95d5-46a1-ae6a-036425a67f6e" />
+
+<img width="800" alt="BoNomad Home Page 2" src="https://github.com/user-attachments/assets/257c3a47-25e5-42d5-bde0-2993c12baaf5" />
+
+<img width="800" alt="BoNomad Home Page 3" src="https://github.com/user-attachments/assets/1dd3c111-0d2f-496a-a65e-97c070f950fd" />
+
+<img width="2502" height="800" alt="BoNomad Home Page4" src="https://github.com/user-attachments/assets/6bbc9b36-2f8b-4f88-90d5-c13bed841b0d" />
+
 
 ## Technology Stack
 
