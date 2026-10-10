@@ -159,6 +159,7 @@ Route geometry today follows waypoint sequences on the map (routing-engine integ
 ## Contact
 
 [Christophe Marechal] · [https://www.linkedin.com/in/christophe-marechal-5296615]
+Christophe Marechal
 
 ## Intellectual Property
 
