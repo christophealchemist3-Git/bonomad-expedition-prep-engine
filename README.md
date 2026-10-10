@@ -1,3 +1,5 @@
+🇫🇷 [Lire en français](README.fr.md)
+
 # BoNomad – Expedition Prep Engine
 
 **AI-powered expedition planning for off-road and overland travel.**
